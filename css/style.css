@@ -24,25 +24,32 @@ body, html{
   padding: 30px;
 }
 
-.icon-bar:hover {
+/*menu background when active */
+
+/*.icon-bar {
   background-color: black;
   width:125px;
   height:200px;
+}*/
+
+.icon-bar a{
+  color: black;
 }
 
-.icon-bar a {
-  color: black;
-  background-attachment:fixed;
-}
+/*bars switch color when active*/
 
 .icon-bar a:hover {
   color: white;
 }
 
-.menu li a{
-  text-decoration: none;
+.menu {
+  list-style-type: none;
 }
 
+li a {
+  text-decoration: none;
+  display: none;
+}
 
 .image1 {
   background-image: url("../images/newYork1.jpeg");
