@@ -1,0 +1,105 @@
+body, html{
+  height: 100%;
+  margin:0;
+  font-size: 16px;
+  font-family: "Lato", sans-serif;
+  font-weight: 400;
+  line-height: 1.8em;
+  color: #667;
+}
+
+.image1, .image2, .image3 {
+  position: relative;
+  opacity: 0.70;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+
+  /*images effect*/
+  background-attachment: fixed;
+}
+
+/*Navigation bar*/
+.icon-bar {
+  padding: 30px;
+}
+
+.icon-bar:hover {
+  background-color: black;
+  width:125px;
+  height:200px;
+}
+
+.icon-bar a {
+  color: black;
+  background-attachment:fixed;
+}
+
+.icon-bar a:hover {
+  color: white;
+}
+
+.menu li a{
+  text-decoration: none;
+}
+
+
+.image1 {
+  background-image: url("../images/newYork1.jpeg");
+  min-height: 100%;
+}
+
+.image2 {
+  background-image: url("../images/newYork2.jpeg");
+  min-height: 400px;
+}
+
+.image3 {
+  background-image: url("../images/newYork3.jpeg");
+  min-height: 400px;
+}
+
+.section {
+  text-align: justify;
+  padding: 50px 50px;
+}
+
+.section-light {
+  background-color:#f5f5f5;
+  color: #667;
+}
+
+.section-dark {
+  background-color: #282e34;
+  color: #ddd;
+}
+
+.text {
+  position: absolute;
+  top: 50%;
+  width: 100%;
+  text-align: center;
+  color: #000;
+  font-size: 27px;
+  letter-spacing: 8px;
+  text-transform: uppercase;
+}
+
+.text .border {
+  background-color: #282e34;
+  color: #fff;
+  padding:20px;
+}
+
+.image2 .text .transp, .image3 .text .transp  {
+  background-color: transparent;
+}
+
+@media(max-width:568px) {
+  .image1, .image2, .image3 {
+    background-attachment: scroll;
+  }
+
+}
+
+}
